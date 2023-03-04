@@ -6,7 +6,7 @@ import { invoiceData } from './invoice-data';
   selector: 'my-app',
   template: `
     <div class="example-config">
-      <button kendo-button  (click)="pdf.saveAs('invoice.pdf')">
+      <button kendo-button  (click)="pdf.saveAs('sampleSentiMent.pdf')">
       <span class="k-icon k-i-print"></span> Print
       </button>
     </div>
